@@ -29,13 +29,6 @@ var cells = function (done) {
 	});
 
 
-	var sim = function (world, Physics) {
-
-
-		born(viewWidth / 2, viewHeight / 2);
-
-	};
-
 	$(function () {
 		Physics.util.ticker.start();
 		// initialize the world
